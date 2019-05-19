@@ -15,7 +15,7 @@ Based on installer script https://github.com/maestrogerardo/i3-gaps-deb/blob/mas
 Converted to dockerized build, inspired by https://github.com/IronicBadger/docker-snapraid/
 
 
-# Usage
+## Usage
 
 1. Build on docker host with git installed
 ```
@@ -25,7 +25,7 @@ chmod +x build.sh
 ./build.sh
 ```
 
-2. install from build packages
+2. Install from build packages
 ```
 sudo dpkg -i build/i3*.deb
 ```
